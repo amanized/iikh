@@ -41,7 +41,7 @@ void Recipe::showMenu_S() //소메뉴를 보여주는 함수
 	cout<<"2.삭     제"<<endl;
 	cout<<"────────────────────────"<<endl;
 
-	cin<<choice_S;
+	cin>>choice_S;
 
 	switch(choice_S)
 	{
@@ -57,7 +57,7 @@ void Recipe::showMenu_S() //소메뉴를 보여주는 함수
 	}
 }
 
-	void listAll();     //전체 레시피를 보여주는 함수
-	void checkPrint();  //조건을 만족시키는 함수 
-	void insertRecipe(); //레시피를 추가 시키는 함수
-	void deleteRecipe(); //레시피를 삭제 시키는 함수
+	//void listAll();     //전체 레시피를 보여주는 함수
+	//void checkPrint();  //조건을 만족시키는 함수 
+	//void insertRecipe(); //레시피를 추가 시키는 함수
+	//void deleteRecipe(); //레시피를 삭제 시키는 함수
