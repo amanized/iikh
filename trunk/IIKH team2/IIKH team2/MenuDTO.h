@@ -12,13 +12,13 @@ private:
 	string name;
 
 public:
-	void setDate(int date);
+	void setDate(int _date);
 	int getDate();
 
-	void setTIme(int time);
+	void setTIme(int _time);
 	int getTime();
 
-	void setName(string name);
+	void setName(string _name);
 	string getName();
 
-}
+};

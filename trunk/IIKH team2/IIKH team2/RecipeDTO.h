@@ -14,18 +14,18 @@ private:
 
 public:
 	
-	void setName(string name);
+	void setName(string _name);
 	string getName();
 	
-	void setMaterial(string material);
+	void setMaterial(string _material);
 	string getMaterial();
 
-	void setDetail(string detail);
+	void setDetail(string _detail);
 	string getDetail();
 
-	void setSummary(string summary);
+	void setSummary(string _summary);
 	string getSummary();
 	
 
 
-}
+};
