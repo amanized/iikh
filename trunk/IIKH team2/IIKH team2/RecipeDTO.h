@@ -13,6 +13,8 @@ private:
 	string summary;
 
 public:
+
+	RecipeDTO(string _name, string _material, string _detail, string _summary);
 	
 	void setName(string _name);
 	string getName();
