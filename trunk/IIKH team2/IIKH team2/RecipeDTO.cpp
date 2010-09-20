@@ -1,5 +1,12 @@
 #include "RecipeDTO.h"
 
+RecipeDTO::RecipeDTO(string _name, string _material, string _detail, string _summary){
+	name = _name;
+	material = _material;
+	detail = _detail;
+	summary = _summary;
+}
+
 void RecipeDTO::setName(string _name){
 	name = _name;
 }
