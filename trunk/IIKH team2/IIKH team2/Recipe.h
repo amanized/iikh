@@ -3,6 +3,8 @@
 #include <string>
 #include <fstream>
 
+using namespace std;
+
 class Recipe{
 
 private:
@@ -14,6 +16,9 @@ private:
 public:
 	void showMenu_M();  //중메뉴를 보여주는 함수
 	void showMenu_S();  //소메뉴를 보여주는 함수
-	void listAll()      //전체 레시피를 보여주는 함수
+	void listAll();     //전체 레시피를 보여주는 함수
+	void checkPrint();  //조건을 만족시키는 함수 
+	void insertRecipe(); //레시피를 추가 시키는 함수
+	void deleteRecipe(); //레시피를 삭제 시키는 함수
 
 }
