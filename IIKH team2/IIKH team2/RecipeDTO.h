@@ -8,7 +8,7 @@ class RecipeDTO{
 
 private:
 	string name;
-	string meterial;
+	string material;
 	string detail;
 	string summary;
 
